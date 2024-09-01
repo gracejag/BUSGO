@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#3D5A80"
+    android:layout_height="match_parent">
+
+<!--        android:text="1133 Connecticut Ave NW, Washington, DC 20036"-->
+<!--    United States Capitol-->
+    <EditText
+        android:id="@+id/startlocation"
+        android:layout_width="300dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/prata"
+        android:text="starting location"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.237" />
+
+    <EditText
+        android:id="@+id/endlocation"
+        android:layout_width="300dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/prata"
+        android:text="ending location"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="go"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="STARTING LOCATION:"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="10dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.193"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:fontFamily="serif"-->
+<!--        app:layout_constraintVertical_bias="0.106" />-->
+
+<!--    <SearchView-->
+<!--        android:id="@+id/searchLoc2"-->
+<!--        android:layout_width="290dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:iconifiedByDefault="false"-->
+<!--        android:queryHint="Search"-->
+<!--        android:background="#F5F5F5"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.497"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.151" />-->
+
+<!--    <ListView-->
+<!--        android:id="@+id/listview"-->
+<!--        android:layout_width="290dp"-->
+<!--        android:layout_height="140dp"-->
+<!--        app:layout_constraintHorizontal_bias="0.504"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/searchLoc2"-->
+<!--         />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="FINAL LOCATION:"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="10dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.193"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:fontFamily="serif"-->
+<!--        app:layout_constraintVertical_bias="0.406" />-->
+
+<!--    <SearchView-->
+<!--        android:id="@+id/searchLoc3"-->
+<!--        android:layout_width="290dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:iconifiedByDefault="false"-->
+<!--        android:queryHint="Search"-->
+<!--        android:background="#F5F5F5"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.497"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.451" />-->
+
+<!--    <ListView-->
+<!--        android:id="@+id/listview2"-->
+<!--        android:layout_width="290dp"-->
+<!--        android:layout_height="140dp"-->
+<!--        app:layout_constraintHorizontal_bias="0.504"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/searchLoc3"-->
+<!--        />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

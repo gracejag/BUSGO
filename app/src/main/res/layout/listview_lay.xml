@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D5A80"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/garamond"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:textSize="14sp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+
+<!--<TextView-->
+<!--    android:id="@+id/textView"-->
+<!--    android:layout_width="fill_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_gravity="center"-->
+<!--    app:layout_constraintTop_toTopOf="parent"-->
+<!--    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--    app:layout_constraintLeft_toLeftOf="parent"-->
+<!--    app:layout_constraintRight_toRightOf="parent"-->
+<!--    android:textColor="@color/white" />-->
+
+
+
+<!--<TextView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:id="@android:id/text1"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:textColor="@color/white"-->
+    <!--    android:textAppearance="?android:attr/textAppearanceListItemSmall"-->
+
+<!--    android:gravity="center_vertical"-->
+<!--    android:paddingStart="?android:attr/listPreferredItemPaddingStart"-->
+<!--    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"-->
+<!--    android:minHeight="?android:attr/listPreferredItemHeightSmall"-->
+<!--    />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

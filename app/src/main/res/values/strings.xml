@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BusGo</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="greeting">Hello TJHSST %1$s</string>
+    <string name="click">Your Age: %1$d</string>
+</resources>
